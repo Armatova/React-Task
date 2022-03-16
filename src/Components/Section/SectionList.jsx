@@ -1,4 +1,6 @@
 import React from "react";
+import SectionCard from "./SectionCard";
+import "./SectionList.css";
 
 const SectionList = (props) => {
   let { clothes } = props;
@@ -6,7 +8,7 @@ const SectionList = (props) => {
   return (
     <div className="clothes-list">
       {clothes.map((item) => (
-        <SectionList clothes={item} key={item.id} />
+        <SectionCard item={item} key={item.id} />
       ))}
     </div>
   );

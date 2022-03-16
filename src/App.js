@@ -15,7 +15,7 @@ const App = () => {
     {
       model: "Woman",
       image:
-        "http://3.bp.blogspot.com/-sl7sUgXJJHA/UtaU07lAVnI/AAAAAAAACEs/5zvfelM_8KU/s1600/5b57620e24c6ffd0084e5e8c3f2a9aed.jpg",
+        "https://www.fashiongonerogue.com/wp-content/uploads/2020/12/Women-Pink-Black-Grey-New-Balance-Sneakers-iPhone.jpg",
       id: 2,
     },
     {
@@ -26,9 +26,10 @@ const App = () => {
   ];
   let contacts = [
     {
-      phoneNumber: "00996555333222",
-      email: "newbalance@newbalance.com",
-      socialMedia: "@newbalance",
+      phoneNumber: "Phone: 00996555333222",
+      email: "email: newbalance@newbalance.com",
+      socialMedia: "instagramm:@newbalance",
+      id: 1,
     },
   ];
   return (

@@ -5,7 +5,15 @@ const Navbar = ({ clothes }) => {
   return (
     <div>
       {clothes.map((item) => (
-        <strong style={{ margin: "10px", cursor: "pointer" }} key={item.id}>
+        <strong
+          style={{
+            margin: "10px",
+            cursor: "pointer",
+            color: "black",
+            fontSize: "25px",
+          }}
+          key={item.id}
+        >
           {item.model}
         </strong>
       ))}
